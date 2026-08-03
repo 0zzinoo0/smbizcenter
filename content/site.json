@@ -30,7 +30,7 @@
       "situation": "아이디어와 관련 경력은 있으나 매출과 법인 설립 전 단계.",
       "review": "대표자 경험, 고객 문제, 수익구조, 초기 실행계획을 정리.",
       "proposal": "창업지원사업과 정책자금 검토 순서를 구분하고 사업계획 보완.",
-      "image": "/assets/business_owner 고민.jpg",
+      "image": "/assets/business_owner.jpg",
       "label": "가상·재구성 사례"
     },
     {
@@ -75,5 +75,9 @@
       "question": "중소기업비지니스센터가 직접 대출을 해주나요?",
       "answer": "아닙니다. 금융기관이나 대출회사가 아닌 민간 경영컨설팅 브랜드입니다."
     }
-  ]
+  ],
+  "settings": {
+    "site_name": "중소기업비지니스센터",
+    "consultation_notice": "접수 내용을 확인한 후 입력하신 연락처로 순차적으로 연락드립니다."
+  }
 }

@@ -42,5 +42,14 @@
 </footer>
 <a class="btn mobile-cta" href="/consulting/">무료 기업진단 신청</a>
 
+<script src="/tracking.js"></script>
+<script>
+(function(){
+  if(sessionStorage.getItem('smbiz_lead_submitted')==='1' && sessionStorage.getItem('smbiz_conversion_sent')!=='1'){
+    sessionStorage.setItem('smbiz_conversion_sent','1');
+    setTimeout(function(){ if(window.smbizTrackLead) window.smbizTrackLead(); },1200);
+  }
+})();
+</script>
 <script src="/cms-content.js"></script>
 </body></html>

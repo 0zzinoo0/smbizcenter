@@ -138,6 +138,11 @@
       for(const [k,v] of data.entries()) body.append(k,v);
       const res=await fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:body.toString()});
       if(!res.ok) throw new Error('HTTP '+res.status);
+      const lead=Object.fromEntries(data.entries());
+      try{
+        await fetch('/.netlify/functions/notify-lead',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(lead)});
+      }catch(notifyError){ console.warn('Email notification skipped',notifyError); }
+      sessionStorage.setItem('smbiz_lead_submitted','1');
       location.href='/complete/';
     }catch(err){
       console.error(err); alert('접수 처리 중 오류가 발생했습니다. 잠시 후 다시 시도해 주세요.');
@@ -146,5 +151,6 @@
   });
 })();
 </script>
+<script src="/tracking.js"></script>
 <script src="/cms-content.js"></script>
 </body></html>
