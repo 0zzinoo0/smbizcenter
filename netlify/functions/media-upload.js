@@ -19,7 +19,15 @@ export default async (request) => {
     const safe = String(filename || (isVideo ? 'video' : 'image')).replace(/[^a-zA-Z0-9._-]/g, '_');
     const key = `${Date.now()}-${safe}`;
     const store = getStore('smbiz-media');
-    await store.set(key, buffer, { metadata: { contentType } });
+
+const arrayBuffer = buffer.buffer.slice(
+  buffer.byteOffset,
+  buffer.byteOffset + buffer.byteLength
+);
+
+await store.set(key, arrayBuffer, {
+  metadata: { contentType }
+});
     return json(200, { url: `/.netlify/functions/media?id=${encodeURIComponent(key)}`, type: isVideo ? 'video' : 'image' });
   } catch (error) {
     return json(500, { error: '파일 업로드에 실패했습니다.', detail: error.message });
