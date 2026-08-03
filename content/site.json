@@ -16,7 +16,18 @@
     "hero_description": "창업자금부터 운영·시설자금, 기업인증, 정부지원사업, R&D, 판로, 수출 및 투자 연계까지 기업 성장 단계에 맞춘 전략을 제안합니다.",
     "hero_primary_button": "무료 기업진단",
     "about_title": "자금만 안내하는 곳이 아닌\n종합 경영컨설팅 파트너",
-    "about_description": "기업의 업력, 재무, 기술력, 시장성, 조직과 성장계획을 종합적으로 살펴 적합한 자금·지원사업·인증·성장전략을 연결합니다."
+    "about_description": "기업의 업력, 재무, 기술력, 시장성, 조직과 성장계획을 종합적으로 살펴 적합한 자금·지원사업·인증·성장전략을 연결합니다.",
+    "hero_media_type": "image",
+    "hero_image": "/assets/hero.png",
+    "hero_video": "",
+    "hero_youtube": "",
+    "hero_autoplay": true,
+    "hero_muted": true,
+    "hero_loop": true,
+    "about_media_type": "image",
+    "about_image": "/assets/consulting.png",
+    "about_video": "",
+    "about_youtube": ""
   },
   "about": {
     "mission_title": "기업의 가능성을\n실행 가능한 전략으로 연결합니다.",
@@ -31,7 +42,10 @@
       "review": "대표자 경험, 고객 문제, 수익구조, 초기 실행계획을 정리.",
       "proposal": "창업지원사업과 정책자금 검토 순서를 구분하고 사업계획 보완.",
       "image": "/assets/business_owner.jpg",
-      "label": "가상·재구성 사례"
+      "label": "가상·재구성 사례",
+      "media_type": "image",
+      "video": "",
+      "youtube": ""
     },
     {
       "title": "시설 확장과 운전자금 병행 검토",
@@ -40,7 +54,10 @@
       "review": "시설투자 계획, 매출 흐름, 설비 견적과 자금 집행시점 검토.",
       "proposal": "시설자금과 운전자금 목적을 구분하고 단계별 신청자료 준비.",
       "image": "/assets/consulting_photo.png",
-      "label": "가상·재구성 사례"
+      "label": "가상·재구성 사례",
+      "media_type": "image",
+      "video": "",
+      "youtube": ""
     },
     {
       "title": "인증·R&D·수출 연계 전략",
@@ -49,7 +66,10 @@
       "review": "보유기술, 연구인력, 지식재산, 목표시장과 투자계획 검토.",
       "proposal": "기업인증 → 연구개발 → 실증 → 수출지원 순으로 로드맵 구성.",
       "image": "/assets/credentials_brochure.png",
-      "label": "가상·재구성 사례"
+      "label": "가상·재구성 사례",
+      "media_type": "image",
+      "video": "",
+      "youtube": ""
     }
   ],
   "team": [
@@ -59,7 +79,10 @@
       "specialty": "기업경영·정책자금·지원사업",
       "bio": "운영법인 대표. 현재 공식 직함과 위촉 상태가 확인된 내용만 공개합니다.",
       "image": "/assets/representative_photo.jpg",
-      "is_public": true
+      "is_public": true,
+      "media_type": "image",
+      "video": "",
+      "youtube": ""
     }
   ],
   "faq": [
