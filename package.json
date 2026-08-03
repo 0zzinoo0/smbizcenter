@@ -2,7 +2,8 @@
   "name": "smbiz-business-center-site",
   "private": true,
   "version": "1.0.0",
+  "type": "module",
   "dependencies": {
-    "@netlify/blobs": "^9.1.0"
+    "@netlify/blobs": "8.1.2"
   }
 }
