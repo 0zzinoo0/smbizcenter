@@ -29,9 +29,11 @@ export function verifyToken(header = '') {
 }
 
 export function json(statusCode, body) {
-  return {
-    statusCode,
-    headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' },
-    body: JSON.stringify(body)
-  };
+  return new Response(JSON.stringify(body), {
+    status: statusCode,
+    headers: {
+      'content-type': 'application/json; charset=utf-8',
+      'cache-control': 'no-store'
+    }
+  });
 }
