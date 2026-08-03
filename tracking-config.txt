@@ -1,0 +1,13 @@
+Google Analytics / Google Ads 연결 준비
+
+현재 실제 측정 ID가 없어 코드를 넣지 않았습니다.
+필요 정보:
+1. GA4 측정 ID: G-XXXXXXXXXX
+2. Google Ads 전환 ID: AW-XXXXXXXXX
+3. 전환 라벨
+
+전환 기준 페이지:
+https://도메인/complete/
+
+광고 최종 URL 권장:
+https://도메인/startup/?utm_source=youtube&utm_medium=paid_video&utm_campaign=startup_01

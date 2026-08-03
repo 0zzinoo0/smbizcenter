@@ -1,0 +1,79 @@
+{
+  "company": {
+    "brand_name": "중소기업비지니스센터",
+    "operator_name": "(주)T&Y LAB",
+    "operator_representative": "강근호",
+    "brand_representative": "배진우",
+    "business_number": "304-17-03737",
+    "registration_number": "제2022-654호",
+    "address": "서울특별시 양천구 국회대로 252, 제일빌딩 105-2호",
+    "phone": "",
+    "email": "",
+    "kakao_url": ""
+  },
+  "home": {
+    "hero_title": "기업의 현재를 진단하고\n성장의 방향을 설계합니다.",
+    "hero_description": "창업자금부터 운영·시설자금, 기업인증, 정부지원사업, R&D, 판로, 수출 및 투자 연계까지 기업 성장 단계에 맞춘 전략을 제안합니다.",
+    "hero_primary_button": "무료 기업진단",
+    "about_title": "자금만 안내하는 곳이 아닌\n종합 경영컨설팅 파트너",
+    "about_description": "기업의 업력, 재무, 기술력, 시장성, 조직과 성장계획을 종합적으로 살펴 적합한 자금·지원사업·인증·성장전략을 연결합니다."
+  },
+  "about": {
+    "mission_title": "기업의 가능성을\n실행 가능한 전략으로 연결합니다.",
+    "mission_text": "자금 한 번의 안내가 아니라 기업의 성장 흐름 전체를 봅니다. 기업의 업력, 재무, 기술력, 시장성, 조직과 성장계획을 종합적으로 검토하고 지금 필요한 과제와 다음 성장단계를 함께 설계합니다.",
+    "representative_bio": "운영법인 (주)T&Y LAB 대표. 공식 직함과 위촉 상태는 확인된 내용만 표시합니다."
+  },
+  "cases": [
+    {
+      "title": "시장 진입을 위한 창업 준비",
+      "category": "예비창업 · 서비스업",
+      "situation": "아이디어와 관련 경력은 있으나 매출과 법인 설립 전 단계.",
+      "review": "대표자 경험, 고객 문제, 수익구조, 초기 실행계획을 정리.",
+      "proposal": "창업지원사업과 정책자금 검토 순서를 구분하고 사업계획 보완.",
+      "image": "/assets/business_owner 고민.jpg",
+      "label": "가상·재구성 사례"
+    },
+    {
+      "title": "시설 확장과 운전자금 병행 검토",
+      "category": "창업 3년 · 제조업",
+      "situation": "수주가 늘었으나 생산설비와 원재료 비용 부담이 증가.",
+      "review": "시설투자 계획, 매출 흐름, 설비 견적과 자금 집행시점 검토.",
+      "proposal": "시설자금과 운전자금 목적을 구분하고 단계별 신청자료 준비.",
+      "image": "/assets/consulting_photo.png",
+      "label": "가상·재구성 사례"
+    },
+    {
+      "title": "인증·R&D·수출 연계 전략",
+      "category": "업력 7년 이상 · 기술기업",
+      "situation": "기술은 확보했으나 인증, R&D, 해외진출 준비가 분절된 상태.",
+      "review": "보유기술, 연구인력, 지식재산, 목표시장과 투자계획 검토.",
+      "proposal": "기업인증 → 연구개발 → 실증 → 수출지원 순으로 로드맵 구성.",
+      "image": "/assets/credentials_brochure.png",
+      "label": "가상·재구성 사례"
+    }
+  ],
+  "team": [
+    {
+      "name": "강근호",
+      "role": "(주)T&Y LAB 대표",
+      "specialty": "기업경영·정책자금·지원사업",
+      "bio": "운영법인 대표. 현재 공식 직함과 위촉 상태가 확인된 내용만 공개합니다.",
+      "image": "/assets/representative_photo.jpg",
+      "is_public": true
+    }
+  ],
+  "faq": [
+    {
+      "question": "어떤 기업이 상담할 수 있나요?",
+      "answer": "예비창업자부터 초기기업, 기존 중소기업과 사업확장을 준비하는 기업까지 상담할 수 있습니다."
+    },
+    {
+      "question": "매출이 없어도 상담할 수 있나요?",
+      "answer": "예비창업자와 초기기업은 매출뿐 아니라 사업계획, 시장성, 대표자 역량과 준비상황을 함께 검토합니다."
+    },
+    {
+      "question": "중소기업비지니스센터가 직접 대출을 해주나요?",
+      "answer": "아닙니다. 금융기관이나 대출회사가 아닌 민간 경영컨설팅 브랜드입니다."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+<!doctype html><html lang="ko"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>무료 기업진단 신청 | 중소기업비지니스센터</title>
+<meta name="description" content="중소기업비지니스센터 무료 기업진단 신청">
+<link rel="stylesheet" href="/style.css"></head><body>
+
+<header>
+  <div class="container nav">
+    <a class="brand" href="/"><img src="/assets/logo.png" alt="중소기업비지니스센터 로고"><span>중소기업비지니스센터</span></a>
+    <nav class="menu">
+      <a href="/#about">회사소개</a>
+      <a href="/#services">컨설팅 분야</a>
+      <a href="/startup/">창업자금</a>
+      <a href="/#process">상담절차</a>
+      <a href="/#faq">FAQ</a>
+    </nav>
+    <a class="btn" href="/consulting/">무료 기업진단</a>
+  </div>
+</header>
+
+<section class="page-hero"><div class="container">
+  <div class="kicker">FREE BUSINESS DIAGNOSIS</div>
+  <h1>무료 기업진단 신청</h1>
+  <p>기업의 현재 상황을 확인한 후 정책자금, 정부지원사업, 기업인증, R&D 및 성장전략 가운데 적합한 상담 방향을 안내합니다.</p>
+</div></section>
+
+<main class="section alt"><div class="container">
+<div class="form-shell">
+  <div class="progress"><div class="active" data-progress="1">1. 기업현황</div><div data-progress="2">2. 상담분야</div><div data-progress="3">3. 연락정보</div></div>
+  <div class="form-body">
+    <form name="consulting" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="consulting">
+      <p hidden><label>작성하지 마세요: <input name="bot-field"></label></p>
+      <input type="hidden" name="utm_source" id="utm_source">
+      <input type="hidden" name="utm_medium" id="utm_medium">
+      <input type="hidden" name="utm_campaign" id="utm_campaign">
+
+      <section class="form-step active" data-step="1">
+        <h2 style="font-size:30px">현재 기업 단계는 어디에 해당하나요?</h2>
+        <p class="small">가장 가까운 항목을 하나 선택해 주세요.</p>
+        <div class="option-grid">
+          <div class="option"><input id="stage1" type="radio" name="stage" value="예비창업" required><label for="stage1">예비창업</label></div>
+          <div class="option"><input id="stage2" type="radio" name="stage" value="1년 미만"><label for="stage2">창업 1년 미만</label></div>
+          <div class="option"><input id="stage3" type="radio" name="stage" value="1~3년"><label for="stage3">창업 1~3년</label></div>
+          <div class="option"><input id="stage4" type="radio" name="stage" value="3~7년"><label for="stage4">창업 3~7년</label></div>
+          <div class="option"><input id="stage5" type="radio" name="stage" value="7년 이상"><label for="stage5">업력 7년 이상</label></div>
+          <div class="option"><input id="stage6" type="radio" name="stage" value="기타"><label for="stage6">기타·잘 모르겠음</label></div>
+        </div>
+        <div class="form-actions"><span></span><button class="btn next" type="button">다음</button></div>
+      </section>
+
+      <section class="form-step" data-step="2">
+        <h2 style="font-size:30px">가장 필요한 상담 분야를 선택해 주세요.</h2>
+        <p class="small">현재 가장 우선순위가 높은 항목을 선택해 주세요.</p>
+        <div class="option-grid">
+          <div class="option"><input id="svc1" type="radio" name="service" value="창업자금·창업지원" required><label for="svc1">창업자금·창업지원</label></div>
+          <div class="option"><input id="svc2" type="radio" name="service" value="운전자금"><label for="svc2">운전자금</label></div>
+          <div class="option"><input id="svc3" type="radio" name="service" value="시설자금"><label for="svc3">시설자금</label></div>
+          <div class="option"><input id="svc4" type="radio" name="service" value="기업인증"><label for="svc4">기업인증</label></div>
+          <div class="option"><input id="svc5" type="radio" name="service" value="정부지원·R&D"><label for="svc5">정부지원·R&D</label></div>
+          <div class="option"><input id="svc6" type="radio" name="service" value="판로·수출·투자"><label for="svc6">판로·수출·투자</label></div>
+        </div>
+        <div class="form-actions"><button class="btn outline prev" type="button">이전</button><button class="btn next" type="button">다음</button></div>
+      </section>
+
+      <section class="form-step" data-step="3">
+        <h2 style="font-size:30px">상담을 위한 연락정보를 남겨주세요.</h2>
+        <p class="small">필수항목만 입력하면 약 1분 이내로 완료됩니다.</p>
+        <div class="form-grid">
+          <div><label>성함 *</label><input name="name" required placeholder="홍길동"></div>
+          <div><label>연락처 *</label><input name="phone" required inputmode="tel" placeholder="010-0000-0000"></div>
+          <div class="full"><label>회사명 또는 상호</label><input name="company" placeholder="예비창업자는 비워도 됩니다"></div>
+          <div class="full"><label>현재 가장 필요한 내용</label><textarea name="message" placeholder="현재 상황과 필요한 지원을 간단히 적어주세요."></textarea></div>
+          <div class="full"><label class="check"><input type="checkbox" name="privacy" required><span><a href="/privacy/" target="_blank" style="text-decoration:underline">개인정보 수집 및 이용 안내</a>를 확인했으며 상담을 위한 정보 수집에 동의합니다.</span></label></div>
+        </div>
+        <div class="form-actions"><button class="btn outline prev" type="button">이전</button><button class="btn" type="submit">무료 기업진단 신청하기</button></div>
+      </section>
+    </form>
+
+    <p class="notice">중소기업비지니스센터는 (주)T&Y LAB이 운영하는 경영컨설팅 브랜드이며, 금융기관 또는 정부기관이 아닙니다. 자금 및 지원 여부는 기업 현황과 기관 심사 결과에 따라 달라질 수 있습니다.</p>
+  </div>
+</div>
+</div></main>
+
+
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <div class="brand"><img src="/assets/logo.png" alt=""><span>중소기업비지니스센터</span></div>
+      <p>대표자 배진우 · 사업자등록번호 304-17-03737<br>
+      서울특별시 양천구 국회대로 252, 제일빌딩 105-2호<br>
+      업종: 경영컨설팅업</p>
+      <p class="footer-note">운영법인 (주)T&Y LAB · 중소기업상담회사 등록번호 제2022-654호</p>
+      <p class="footer-note">중소기업비지니스센터는 (주)T&Y LAB이 운영하는 경영컨설팅 브랜드이며, 금융기관 또는 정부기관이 아닙니다.</p>
+    </div>
+    <div>
+      <p><a href="/privacy/">개인정보처리방침</a><br><a href="/consulting/">상담 신청</a></p>
+      <p class="footer-note">Copyright © 중소기업비지니스센터. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+<a class="btn mobile-cta" href="/consulting/">무료 기업진단 신청</a>
+
+
+<script>
+(function(){
+  const steps=[...document.querySelectorAll('.form-step')];
+  const progress=[...document.querySelectorAll('[data-progress]')];
+  let current=0;
+
+  function show(index){
+    current=index;
+    steps.forEach((el,i)=>el.classList.toggle('active',i===index));
+    progress.forEach((el,i)=>el.classList.toggle('active',i===index));
+    window.scrollTo({top:document.querySelector('.form-shell').offsetTop-100,behavior:'smooth'});
+  }
+
+  document.querySelectorAll('.next').forEach(btn=>btn.addEventListener('click',()=>{
+    const required=[...steps[current].querySelectorAll('[required]')];
+    const valid=required.every(el=>el.type==='radio' ? steps[current].querySelector(`[name="${el.name}"]:checked`) : el.checkValidity());
+    if(!valid){ alert('필수 항목을 선택해 주세요.'); return; }
+    show(Math.min(current+1,steps.length-1));
+  }));
+  document.querySelectorAll('.prev').forEach(btn=>btn.addEventListener('click',()=>show(Math.max(current-1,0))));
+
+  const p=new URLSearchParams(location.search);
+  ['utm_source','utm_medium','utm_campaign'].forEach(k=>{const el=document.getElementById(k);if(el)el.value=p.get(k)||'';});
+  if(p.get('service')==='startup'){const el=document.getElementById('svc1');if(el)el.checked=true;}
+
+  const form=document.querySelector('form[name="consulting"]');
+  form.addEventListener('submit',async function(e){
+    e.preventDefault();
+    const button=form.querySelector('button[type="submit"]');
+    const text=button.textContent; button.disabled=true; button.textContent='접수 중입니다...';
+    try{
+      const data=new FormData(form);
+      const body=new URLSearchParams();
+      for(const [k,v] of data.entries()) body.append(k,v);
+      const res=await fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:body.toString()});
+      if(!res.ok) throw new Error('HTTP '+res.status);
+      location.href='/complete/';
+    }catch(err){
+      console.error(err); alert('접수 처리 중 오류가 발생했습니다. 잠시 후 다시 시도해 주세요.');
+      button.disabled=false; button.textContent=text;
+    }
+  });
+})();
+</script>
+<script src="/cms-content.js"></script>
+</body></html>
